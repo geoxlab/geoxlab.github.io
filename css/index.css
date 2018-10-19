@@ -1,0 +1,138 @@
+body{
+    width: 1080px;
+    margin: auto auto;
+    background: darkgrey;
+
+}
+.wrap{
+    margin: auto auto;
+    width: 1080px;
+    background: white;
+    height: auto;
+
+}
+
+header{
+    width: auto;
+    height: 400px;
+    background: gray;
+    margin: 0 auto;
+    
+}
+
+.nav{
+    font-size: 18px;
+    margin-top: 3px;
+}
+
+.content{
+    margin: 5px 0px;
+}
+
+
+
+
+.home-news{
+    float: left;
+    width: 310px;
+    height: auto;
+    margin: 5px 5px;
+    font-size: 18px;
+
+}
+
+#news{
+    margin: 3px 6px;
+}
+
+#news li{
+    margin: 15px 3px;
+
+}
+
+
+.overview{
+    float: right;
+    width: 745px;
+    height: auto;
+    margin: 5px 5px;
+    font-size: 18px;
+}
+
+.overview p{
+    margin: 0 20px;
+    list-style-position: outside;
+    font-size: 18px;
+}
+
+.title{
+    margin: 5px 5px;
+    font-size: 18px;
+}
+
+
+.footer{
+
+    width: 1080px;
+    padding: 10px 0px;
+    background: beige;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 15px;
+    text-align: center;
+    vertical-align:middle;
+    clear: both;
+}
+
+
+
+
+#particles {
+    background: #16a085;
+    width: 1080px;
+    height: 400px;
+    overflow: hidden;
+    margin: auto auto;
+    margin-bottom: 0;
+}
+
+.intro {
+    position: relative;
+    margin: auto auto;
+    top: -150px;
+    left: -25%;
+    margin-bottom: -50px;
+    padding: 0 20px;
+    width: 500px;
+    z-index: 999;
+    vertical-align:middle;
+}
+
+
+
+#people table{
+    margin-left: 80px;
+    margin-bottom: 20px;
+    width: 900px;
+    border-collapse: collapse;
+}
+#people img{
+    margin-left: 40px;
+    height: 150px;
+    width: 150px;
+}
+
+#people td{
+    margin-left: 20px;
+    width: 25%;
+    /*vertical-align: top;*/
+}
+
+p{
+    font-size: 14px;
+}
+
+.logo{
+    width: 1080px;
+    margin: auto auto;
+}
