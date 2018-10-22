@@ -26,10 +26,12 @@ header{
 }
 
 .content{
-    margin: 5px 0px;
+    margin: 5px 0;
 }
 
-
+.content p{
+    font-size: 18px;
+}
 
 
 .home-news{
@@ -74,12 +76,12 @@ header{
 .footer{
 
     width: 1080px;
-    padding: 10px 0px;
+    padding: 8px 10px;
     background: beige;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
-    font-size: 15px;
-    text-align: center;
+    font-size: 12px;
+    text-align: left;
     vertical-align:middle;
     clear: both;
 }
@@ -117,9 +119,10 @@ header{
     border-collapse: collapse;
 }
 #people img{
-    margin-left: 40px;
     height: 150px;
     width: 150px;
+    margin: 20px 0;
+    margin-left: 60px;
 }
 
 #people td{
@@ -129,10 +132,18 @@ header{
 }
 
 p{
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .logo{
     width: 1080px;
     margin: auto auto;
+}
+
+.subcontent{
+    margin: 5px 80px;
+}
+
+h2{
+    text-align: center;
 }
