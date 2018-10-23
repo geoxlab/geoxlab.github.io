@@ -147,3 +147,13 @@ p{
 h2{
     text-align: center;
 }
+
+.project{
+    width: 1000px;
+    margin: 10px auto;
+}
+
+.project p{
+    margin-left: 20px;
+}
+
