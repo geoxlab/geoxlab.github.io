@@ -150,10 +150,24 @@ h2{
 
 .project{
     width: 1000px;
-    margin: 10px auto;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
 }
 
 .project p{
     margin-left: 20px;
 }
 
+.project-img{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.project img{
+    margin-right: 10px;
+    height: 200px;
+}
