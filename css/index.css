@@ -171,3 +171,12 @@ h2{
     margin-right: 10px;
     height: 200px;
 }
+
+.publications{
+    margin: 5px 50px;
+}
+
+.publications li{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
