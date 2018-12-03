@@ -4,6 +4,10 @@ body{
     background: darkgrey;
 
 }
+
+p{
+   text-align: justify;
+}
 .wrap{
     margin: auto auto;
     width: 1080px;
