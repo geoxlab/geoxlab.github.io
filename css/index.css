@@ -4,10 +4,6 @@ body{
     background: darkgrey;
 
 }
-
-p{
-   text-align: justify;
-}
 .wrap{
     margin: auto auto;
     width: 1080px;
@@ -40,10 +36,13 @@ header{
 
 .home-news{
     float: left;
-    width: 310px;
+    width: 320px;
     height: auto;
     margin: 5px 5px;
     font-size: 18px;
+    margin-right: 0;
+    padding-right: 10px;
+    border-right:5px solid gray;
 
 }
 
@@ -59,7 +58,7 @@ header{
 
 .overview{
     float: right;
-    width: 745px;
+    width: 740px;
     height: auto;
     margin: 5px 5px;
     font-size: 18px;
