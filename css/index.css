@@ -62,6 +62,7 @@ header{
     height: auto;
     margin: 5px 5px;
     font-size: 18px;
+    text-align: center;
 }
 
 .overview p{
@@ -70,6 +71,9 @@ header{
     font-size: 18px;
 }
 
+.overview span{
+    font-size: 12px;
+}
 .title{
     margin: 5px 5px;
     font-size: 18px;
@@ -136,6 +140,7 @@ header{
 
 p{
     font-size: 18px;
+    text-align: justify;
 }
 
 .logo{
