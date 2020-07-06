@@ -1,197 +1,85 @@
+@media screen and (max-device-width: 1000px) {
+ 　　　.column {
+ 　　　　　　float: none;
+ 　　　　　　width:auto;
+ 　　　}
+ 　　　#sidebar {
+ 　　　　　　display:none;
+ 　　　}
+ }
+
 body{
-    width: 1080px;
-    margin: auto auto;
-    background: darkgrey;
-
+    /*width: 1080px;*/
+    /*margin: auto auto;*/
+/*    background: darkgrey;*/
 }
-.wrap{
-    margin: auto auto;
-    width: 1080px;
-    background: white;
-    height: auto;
-
+img {
+    width: 100px;
+    height:100px;
+    margin: 5px 5px;
+    border-radius: 50%;  
 }
 
-header{
+#research img{
     width: auto;
-    height: 400px;
-    background: gray;
-    margin: 0 auto;
-    
-}
-
-.nav{
-    font-size: 18px;
-    margin-top: 3px;
-}
-
-.content{
-    margin: 5px 0;
-}
-
-.content p{
-    font-size: 18px;
-}
-
-
-.home-news{
-    float: left;
-    width: 320px;
-    height: 640px;
-    margin: 5px 5px;
-    font-size: 18px;
-    margin-right: 0;
-    padding-right: 10px;
-    border-right:5px solid gray;
-
-}
-
-#news{
-    margin: 3px 6px;
-}
-
-#news li{
-    margin: 15px 3px;
-
-}
-
-
-.overview{
-    float: right;
-    width: 740px;
     height: auto;
     margin: 5px 5px;
-    font-size: 18px;
+    border-radius: 0; 
+}
+
+p {
+    margin: 10px 10px;
+}
+
+h2 {
+    margin: 30px 40px;
     text-align: center;
 }
 
-.overview p{
-    margin: 0 20px;
-    list-style-position: outside;
-    font-size: 18px;
-}
-
-.overview span{
-    font-size: 12px;
-}
-.title{
-    margin: 5px 5px;
-    font-size: 18px;
-}
-
-
 .footer{
 
-    width: 1080px;
-    padding: 8px 10px;
+    /*width: 1080px;*/
+    /*padding: 8px 10px;*/
     background: beige;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
+    /*border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;*/
+    color: black;
     font-size: 12px;
     text-align: left;
     vertical-align:middle;
     clear: both;
 }
 
+.row {
+     /*position: relative;*/
+     margin: auto auto;
+     /*background: red;*/
+     /*top: -100px;*/
+}
 
-
+#people .img{
+    text-align: left;
+}
 
 #particles {
     background: #16a085;
-    width: 1080px;
-    height: 400px;
+    /*width: 1080px;*/
+    height: 300px;
     overflow: hidden;
     margin: auto auto;
     margin-bottom: -65px;
 }
 
-.intro {
+#index-h1 {
     position: relative;
-    margin: auto auto;
-    top: -150px;
-    left: -25%;
-    margin-bottom: -50px;
-    padding: 0 20px;
-    width: 500px;
-    z-index: 999;
-    vertical-align:middle;
+    top: -100px;
+    height: 100px;
+
 }
 
-
-
-#people table{
-    margin-left: 80px;
-    margin-bottom: 20px;
-    width: 900px;
-    border-collapse: collapse;
-}
-#people img{
-    height: 150px;
-    width: 150px;
-    margin: 20px 0;
-    margin-left: 60px;
-}
-
-#people td{
-    margin-left: 20px;
-    width: 25%;
-    /*vertical-align: top;*/
-}
-
-#students tr{
-    height: 40px;
-}
-#students td{
-    margin-right: 10px;
-}
-
-p{
-    font-size: 18px;
-    text-align: justify;
-}
-
-.logo{
-    width: 1080px;
-    margin: auto auto;
-}
-
-.subcontent{
-    margin: 5px 80px;
-}
-
-h2{
-    text-align: center;
-}
-
-.project{
-    width: 1000px;
-    margin-top: 10px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 50px;
-}
-
-.project p{
-    margin-left: 20px;
-}
-
-.project-img{
-    width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-
-.project img{
-    margin-right: 10px;
-    height: 200px;
-}
-
-.publications{
-    margin: 5px 50px;
-}
-
-.publications li{
-    font-size: 18px;
-    margin-bottom: 5px;
+@media (min-width:800px) {
+    html {
+        width: 1000px;
+        margin: auto auto;
+    }
 }
