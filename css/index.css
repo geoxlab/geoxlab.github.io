@@ -13,11 +13,23 @@ body{
     /*margin: auto auto;*/
 /*    background: darkgrey;*/
 }
-img {
+#people img {
     width: 100px;
     height:100px;
     margin: 5px 5px;
-    border-radius: 50%;  
+   /* border-radius: 50%;  */
+}
+
+#PI-img{
+    
+    height: 400px;
+}
+#img-home {
+    margin-top: 10px;
+}
+
+#indexnav{
+    top: -10px;
 }
 
 #research img{
@@ -31,9 +43,17 @@ p {
     margin: 10px 10px;
 }
 
-h2 {
-    margin: 30px 40px;
+h3 {
+    margin: 10px 20px;
     text-align: center;
+}
+#teaching p {
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+h4{
+     margin-left: 30px;
 }
 
 .footer{
