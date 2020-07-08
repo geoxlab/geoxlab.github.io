@@ -20,17 +20,27 @@ body{
    /* border-radius: 50%;  */
 }
 
+.left{
+    text-align: left;
+    margin: 10px 5px;
+}
+.nav>li>a{
+    padding: 5px 5px;
+}
 #PI-img{
     
-    height: 400px;
+    height: 290px;
 }
 #img-home {
+    /*margin: auto 10px;*/
     margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 50%;
 }
 
-#indexnav{
+/*#indexnav{
     top: -10px;
-}
+}*/
 
 #research img{
     width: auto;
@@ -54,6 +64,10 @@ h3 {
 
 h4{
      margin-left: 30px;
+}
+
+#publications h4{
+    margin-left: 0;
 }
 
 .footer{
@@ -102,4 +116,10 @@ h4{
         width: 1000px;
         margin: auto auto;
     }
+}
+@media (max-width:600px) {
+   #PI-img{
+    
+    height: 150px;
+}
 }
