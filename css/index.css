@@ -51,8 +51,18 @@ body{
 
 p {
     margin: 10px 10px;
+    text-align:justify;
+    text-justify:inter-ideograph;
 }
 
+li {
+    text-align:justify;
+    text-justify:inter-ideograph;
+}
+td{
+    text-align:justify;
+    text-justify:inter-ideograph;
+}
 h3 {
     margin: 10px 20px;
     text-align: center;
@@ -66,8 +76,18 @@ h4{
      margin-left: 30px;
 }
 
+.h7 {
+    font-size: 16px;
+    text-align: center;
+    margin: auto auto;
+}
+
 #publications h4{
     margin-left: 0;
+}
+
+.teaching li{
+    margin: 20px 10px;
 }
 
 .footer{
