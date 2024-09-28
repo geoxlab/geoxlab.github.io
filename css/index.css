@@ -1,23 +1,35 @@
-@media screen and (max-device-width: 1000px) {
- 　　　.column {
- 　　　　　　float: none;
- 　　　　　　width:auto;
- 　　　}
- 　　　#sidebar {
- 　　　　　　display:none;
- 　　　}
- }
+
+ @media screen and (max-device-width: 1000px) {
+    .column {
+        float: none;
+        width: auto;
+    }
+    #sidebar {
+        display: none;
+    }
+}
 
 body{
     /*width: 1080px;*/
     /*margin: auto auto;*/
 /*    background: darkgrey;*/
 }
+
 #people img {
     width: 100px;
     height:100px;
     margin: 5px 5px;
-   /* border-radius: 50%;  */
+}
+
+#people h4{
+    margin:0;
+    font-size: medium;
+    font-weight: bold;
+}
+
+#people .media-body{
+    padding-left: 20px;
+    padding-top: 5px;
 }
 
 .left{
